@@ -12,6 +12,11 @@
 		04284B6221CE709100892A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04284B6021CE709100892A26 /* Main.storyboard */; };
 		04284B6421CE709400892A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04284B6321CE709400892A26 /* Assets.xcassets */; };
 		04284B6721CE709400892A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04284B6521CE709400892A26 /* LaunchScreen.storyboard */; };
+		04284B7121CE715D00892A26 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04284B7021CE715D00892A26 /* TableViewController.swift */; };
+		04EB703521CF83560091AB6D /* Summer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04EB703121CF83550091AB6D /* Summer.jpg */; };
+		04EB703621CF83560091AB6D /* Autumn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04EB703221CF83550091AB6D /* Autumn.jpg */; };
+		04EB703721CF83560091AB6D /* Winter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04EB703321CF83550091AB6D /* Winter.jpg */; };
+		04EB703821CF83560091AB6D /* Spring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04EB703421CF83560091AB6D /* Spring.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		04284B6321CE709400892A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04284B6621CE709400892A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04284B6821CE709400892A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04284B7021CE715D00892A26 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		04EB703121CF83550091AB6D /* Summer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Summer.jpg; sourceTree = "<group>"; };
+		04EB703221CF83550091AB6D /* Autumn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Autumn.jpg; sourceTree = "<group>"; };
+		04EB703321CF83550091AB6D /* Winter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Winter.jpg; sourceTree = "<group>"; };
+		04EB703421CF83560091AB6D /* Spring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spring.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,17 @@
 		04284B5B21CE709100892A26 /* TableviewCellAction */ = {
 			isa = PBXGroup;
 			children = (
+				04EB703421CF83560091AB6D /* Spring.jpg */,
+				04EB703121CF83550091AB6D /* Summer.jpg */,
+				04EB703221CF83550091AB6D /* Autumn.jpg */,
+				04EB703321CF83550091AB6D /* Winter.jpg */,
 				04284B5C21CE709100892A26 /* AppDelegate.swift */,
 				04284B5E21CE709100892A26 /* ViewController.swift */,
 				04284B6021CE709100892A26 /* Main.storyboard */,
 				04284B6321CE709400892A26 /* Assets.xcassets */,
 				04284B6521CE709400892A26 /* LaunchScreen.storyboard */,
 				04284B6821CE709400892A26 /* Info.plist */,
+				04284B7021CE715D00892A26 /* TableViewController.swift */,
 			);
 			path = TableviewCellAction;
 			sourceTree = "<group>";
@@ -122,9 +137,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EB703721CF83560091AB6D /* Winter.jpg in Resources */,
+				04EB703621CF83560091AB6D /* Autumn.jpg in Resources */,
 				04284B6721CE709400892A26 /* LaunchScreen.storyboard in Resources */,
 				04284B6421CE709400892A26 /* Assets.xcassets in Resources */,
+				04EB703521CF83560091AB6D /* Summer.jpg in Resources */,
 				04284B6221CE709100892A26 /* Main.storyboard in Resources */,
+				04EB703821CF83560091AB6D /* Spring.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04284B5F21CE709100892A26 /* ViewController.swift in Sources */,
+				04284B7121CE715D00892A26 /* TableViewController.swift in Sources */,
 				04284B5D21CE709100892A26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56522REH9F;
 				INFOPLIST_FILE = TableviewCellAction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56522REH9F;
 				INFOPLIST_FILE = TableviewCellAction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
